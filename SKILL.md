@@ -1,27 +1,27 @@
 ---
 name: obsidian-viz
 description: |
-  生成 Obsidian 兼容的可视化文件（Excalidraw / Mermaid / Canvas）。
+  Generate Obsidian-compatible visualization files (Excalidraw / Mermaid / Canvas).
   
-  支持两种输入方式：
-  1. 文字描述：从概念/流程描述创建图表
-  2. 图片输入：理解 IM 图片（截图、流程图、架构图）并重绘为可编辑格式
+  Supports dual input:
+  1. Text description: Create diagrams from concept/process descriptions
+  2. Image input: Understand IM images (screenshots, flowcharts, architecture diagrams) and redraw as editable formats
   
-  输出格式：
-  - Obsidian 模式（默认）：.md / .canvas，可在 Obsidian 中直接打开
-  - 标准模式：.mmd / .excalidraw / .html，通用格式
+  Output formats:
+  - Obsidian mode (default): .md / .canvas, directly openable in Obsidian
+  - Standard mode: .mmd / .excalidraw / .html, universal formats
   
-  触发场景：
-  - 用户发送图片（自动触发图片理解模块）
-  - 用户描述概念/流程（直接创建图表）
-  - 明确要求"Obsidian 格式"或"标准格式"
+  Triggers:
+  - User sends image (auto-trigger image understanding)
+  - User describes concept/process (directly create diagram)
+  - Explicitly requests "Obsidian format" or "standard format"
   
-  触发词：Excalidraw、画图、流程图、思维导图、Mermaid、Canvas、
-  可视化、时序图、状态图、知识图谱、在Obsidian打开、生成图表文件、
-  关系图、对比图、时间线、层级图、矩阵图、自由布局、手绘图、
-  甘特图、ER图、交互图表、导出图表、obsidian图表、
-  excalidraw、mermaid、canvas、mind map、flowchart、
-  sequence diagram、visualize、animate、diagram
+  Trigger keywords: Excalidraw, 画图, 流程图, 思维导图, Mermaid, Canvas,
+  可视化, 时序图, 状态图, 知识图谱, 在Obsidian打开, 生成图表文件,
+  关系图, 对比图, 时间线, 层级图, 矩阵图, 自由布局, 手绘图,
+  甘特图, ER图, 交互图表, 导出图表, obsidian图表,
+  excalidraw, mermaid, canvas, mind map, flowchart,
+  sequence diagram, visualize, animate, diagram
 ---
 
 # Obsidian Viz Skill
